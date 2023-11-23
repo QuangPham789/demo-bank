@@ -4,8 +4,9 @@ import (
 	"database/sql"
 	"errors"
 	"net/http"
-	db "simple-bank/db/sqlc"
-
+	
+	db "github.com/QuangPham789/demo-bank/db/sqlc"
+	
 	"github.com/gin-gonic/gin"
 )
 
